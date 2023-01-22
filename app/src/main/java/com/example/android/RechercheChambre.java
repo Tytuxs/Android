@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class RechercheChambre extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +14,5 @@ public class RechercheChambre extends AppCompatActivity {
         TextView NomRef =(TextView) findViewById(R.id.editTextName);
         TextView Date =(TextView) findViewById(R.id.editTextDate);
         Spinner spinnerNbPersonne = (Spinner) findViewById(R.id.spinnerNbPersonne);
-
-
     }
 }

@@ -17,23 +17,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView2" tools:layout_editor_absoluteY="144dp"
             tools:layout_editor_absoluteX="16dp" tools:ignore="MissingConstraints"/>
+
     <Spinner
-            android:layout_width="260dp"
-            android:layout_height="39dp" tools:layout_editor_absoluteX="13dp" android:id="@+id/spinnerNbPersonne"
-            tools:layout_editor_absoluteY="251dp" tools:ignore="MissingConstraints"/>
+        android:id="@+id/spinnerNbPersonne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="251dp" />
     <TextView
             android:text="Réservation Chambre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView3" tools:layout_editor_absoluteY="16dp"
             tools:layout_editor_absoluteX="138dp" tools:ignore="MissingConstraints"/>
+
     <EditText
-            android:layout_width="Date"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="AAAA-MM-JJ"
-            android:ems="10"
-            android:id="@+id/editTextDate" tools:layout_editor_absoluteY="166dp"
-            tools:layout_editor_absoluteX="14dp" tools:ignore="MissingConstraints"/>
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="AAAA-MM-JJ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="166dp" />
     <TextView
             android:text="Nom Personne Référence"
             android:layout_width="wrap_content"
@@ -44,12 +53,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView5" tools:layout_editor_absoluteY="232dp"
             tools:layout_editor_absoluteX="16dp" tools:ignore="MissingConstraints"/>
+
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Name"
-            android:ems="10"
-            android:id="@+id/editTextName" tools:layout_editor_absoluteY="78dp"
-            tools:layout_editor_absoluteX="16dp" tools:ignore="MissingConstraints"/>
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="78dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
